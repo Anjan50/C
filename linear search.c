@@ -18,10 +18,13 @@ void main()
         if(a[i]==x)
         {
             printf("\nsearch is successful");
+            printf(" >> %d found at location %d.\n",x,i);
+
         }
         else
         {
             printf("\nsearch is unsuccessful");
         }
     }
+
 }
