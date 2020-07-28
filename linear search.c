@@ -6,12 +6,12 @@
 void main()
 {
     int a[10],i,x;
-    printf("Enter array: ");
+    printf("Enter array: \n");
     for(i=0;i<=9;i++)
     {
         scanf("%d",&a[i]);
     }
-    printf("Enter search value");
+    printf("Enter search value: ");
     scanf("%d",&x);
     for(i=0;i<=9;i++)
     {
